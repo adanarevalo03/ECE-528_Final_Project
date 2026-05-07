@@ -1,8 +1,8 @@
 # ECE528 Final Project: Line Follower with Bluetooth Control Arm
+--
+              ECE 528
               Adan Arevalo
               Daniel Yang
-
-<img width="2048" height="1536" alt="line_follower" src="https://github.com/user-attachments/assets/732a746f-ba96-4178-bc31-0348d5b7d19e" />
 
 # INTRODUCTION
 This is our final project for ECE 528, where we demonstrated a line-following rover with a Bluetooth-controlled arm using the MSP432 microcontroller. The rover uses an 8-channel QTRX reflectance sensor array to detect and follow a line while also allowing the user to manually control the arm through Bluetooth communication.
@@ -46,7 +46,8 @@ The block diagram for the line follower consists of the components used.
 
 # Components
 
-<img width="218" height="104" alt="ListOf_Components_ece528" src="https://github.com/user-attachments/assets/b826bee7-2d36-4d16-b913-c8aea385bf5a" />
+<img width="422" height="230" alt="Screenshot 2026-05-07 155502" src="https://github.com/user-attachments/assets/262d28ca-cf8c-474c-a07f-afc840f58c80" />
+
 
 
 
@@ -54,9 +55,20 @@ The block diagram for the line follower consists of the components used.
 
 
 # Pinouts
-<img width="134" height="101" alt="Pinouts_ece528" src="https://github.com/user-attachments/assets/015dbbf7-7688-42ca-be5a-cf060cf9e92a" />
+<img width="287" height="229" alt="Screenshot 2026-05-07 155708" src="https://github.com/user-attachments/assets/cc2da7a4-e1f1-4ca5-a816-ff43ccb174d6" />
 
-<img width="252" height="56" alt="pinouts_two_ece528" src="https://github.com/user-attachments/assets/8fa94896-f285-46fb-81f0-6b99cf90f053" />
+
+
+
+
+<img width="509" height="146" alt="Screenshot 2026-05-07 155555" src="https://github.com/user-attachments/assets/c17bc2cf-02f8-4489-95a1-c1d4a66c4f82" />
+
+
+
+
+
+
+
 
 
 
@@ -75,14 +87,18 @@ One challenge during development was tuning the reflectance sensor values to imp
 
 ---
 
-# Hardware Design
+# Final Hardware Design
 
 For better organization and cable management, I created a custom perfboard with soldered header pins. I wanted the project wiring to look clean and organized instead of having loose cables everywhere. The perfboard helped create more reliable connections and made the rover more presentable during testing and demonstrations.
+
+<img width="2048" height="1536" alt="line_follower" src="https://github.com/user-attachments/assets/732a746f-ba96-4178-bc31-0348d5b7d19e" />
 
 
 <img width="2160" height="2880" alt="IMG_4241" src="https://github.com/user-attachments/assets/463f74f2-e4d0-4a21-8fa5-b26ba5670765" />
 
+
 <img width="2160" height="2880" alt="IMG_4242" src="https://github.com/user-attachments/assets/6635baf4-1e90-4d95-971f-1cceb952328e" />
+
 
 <img width="2160" height="2880" alt="IMG_4244" src="https://github.com/user-attachments/assets/5d1f0688-1299-45a9-aca6-a0c1134b9135" />
 
@@ -93,6 +109,7 @@ For better organization and cable management, I created a custom perfboard with 
 
 # Conclusion
 
+In conclusion, this project was successful in creating a line-following rover with a Bluetooth-controlled arm using the MSP432 microcontroller. Throughout this project, I was able to apply many concepts learned during the semester, such as PWM, timers, interrupts, UART communication, and sensor interfacing. This project also helped me gain more hands-on experience with both hardware and software design. Overall, it was a fun and challenging project that improved my understanding of embedded systems, especially working with servos. 
 
 
 
