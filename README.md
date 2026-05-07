@@ -1,7 +1,8 @@
 # ECE528 Final Project: Line Follower with Bluetooth Control Arm
---
+---
               ECE 528
               Adan Arevalo
+              &
               Daniel Yang
 
 # INTRODUCTION
