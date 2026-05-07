@@ -88,6 +88,25 @@ One challenge during development was tuning the reflectance sensor values to imp
 
 ---
 
+# Verification and Testing For PWM
+- PWM signals measured using an oscilloscope
+- Verified 20ms period for the servo
+- 5% for one position and 10% for the other position
+- Pulse width range for the claw servo was 0.5ms - 2.4ms
+- Duty Cycle = Pulse/ Period 
+- CCRx = (Pulse Width / Period) x CCR0
+
+<img width="1024" height="600" alt="s-blob-v1-IMAGE-kBxsf1Qhmwc" src="https://github.com/user-attachments/assets/f4f93bd0-8022-4290-ac6f-9d097cd65196" />
+
+
+
+
+<img width="1024" height="600" alt="s-blob-v1-IMAGE-uzzKFOyXRHg" src="https://github.com/user-attachments/assets/efdf7cf1-28ac-45ff-8f20-7ddedfed00b1" />
+
+
+
+
+
 # Final Hardware Design
 
 For better organization and cable management, I created a custom perfboard with soldered header pins. I wanted the project wiring to look clean and organized instead of having loose cables everywhere. The perfboard helped create more reliable connections and made the rover more presentable during testing and demonstrations.
