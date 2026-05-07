@@ -108,6 +108,17 @@ For better organization and cable management, I created a custom perfboard with 
 
 ---
 
+# Project Demonstration Videos
+https://youtube.com/watch/3cdMw8ev4hA
+https://youtube.com/shorts/19nuFhZ8yGE?feature=share
+
+
+
+
+
+
+---
+
 # Conclusion
 
 In conclusion, this project was successful in creating a line-following rover with a Bluetooth-controlled arm using the MSP432 microcontroller. Throughout this project, I was able to apply many concepts learned during the semester, such as PWM, timers, interrupts, UART communication, and sensor interfacing. This project also helped me gain more hands-on experience with both hardware and software design. Overall, it was a fun and challenging project that improved my understanding of embedded systems, especially working with servos. 
